@@ -49,3 +49,6 @@
 [submodule ".vim/bundle/vim-irblack"]
 	path = .vim/bundle/vim-irblack
 	url = https://github.com/wgibbs/vim-irblack.git
+[submodule ".vim/bundle/bufexplorer"]
+	path = .vim/bundle/bufexplorer
+	url = https://github.com/c9s/bufexplorer.git
