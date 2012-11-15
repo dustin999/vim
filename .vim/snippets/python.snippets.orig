@@ -1,0 +1,11 @@
+snippet pdb
+<<<<<<< HEAD
+	import pdb; pdb.set_trace()
+=======
+	import pdb
+	pdb.set_trace()
+>>>>>>> 4e4161995e692ade3d5a68aaadec543fedafd21a
+
+snippet rpdb
+	import rpdb
+	rpdb.Rpdb(4444).set_trace()
