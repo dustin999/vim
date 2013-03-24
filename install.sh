@@ -5,8 +5,8 @@ if [ `which rake | wc -l` == 0 ]; then
 	exit
 fi
 git pull && git submodule init && git submodule update && git submodule status
-cd .vim/bundle/command-t
-rake make
+#cd .vim/bundle/command-t
+#rake make
 echo ""
 echo "Install done!"
 echo ""
