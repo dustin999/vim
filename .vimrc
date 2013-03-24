@@ -59,9 +59,8 @@ set tabstop=4
 set autoindent
 set number
 map <silent> <unique> <Leader>be <Plug>StartBufExplorer
-map <F3> <leader>be
-map <F5> <leader>b
-map <F7> :bp<CR>
-map <F8> :bn<CR>
+map <c-o> <leader>be
+map <c-[> :bp<CR>
+map <c-]> :bn<CR>
 map <leader>d :bd<CR>
 
