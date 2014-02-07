@@ -1,4 +1,5 @@
 let mapleader=","
+let g:ctrlp_custom_ignore = '\v(\.pyc|__init__.py)$'
 filetype off
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
@@ -53,14 +54,14 @@ set hidden
 set ignorecase
 set smartindent
 autocmd FileType python   set expandtab
-set softtabstop=4
-set shiftwidth=4
-set tabstop=4
+set softtabstop=2
+set shiftwidth=2
+set tabstop=2
 set autoindent
 set number
 map <silent> <unique> <Leader>be <Plug>StartBufExplorer
-map <c-o> <leader>be
-map <c-[> :bp<CR>
-map <c-]> :bn<CR>
+map <C-o> <leader>be
+map   <C-S-Tab>     :bp<CR>
+map   <C-Tab>       :bn<CR>
 map <leader>d :bd<CR>
 
