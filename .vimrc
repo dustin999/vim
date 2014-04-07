@@ -54,9 +54,9 @@ set hidden
 set ignorecase
 set smartindent
 autocmd FileType python   set expandtab
-set softtabstop=2
-set shiftwidth=2
-set tabstop=2
+set softtabstop=4
+set shiftwidth=4
+set tabstop=4
 set autoindent
 set number
 map <silent> <unique> <Leader>be <Plug>StartBufExplorer
